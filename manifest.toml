@@ -1,3 +1,35 @@
 version = "2026.05.06.01"
 release_date = 2026-05-06T17:00:00Z
 description = "Official rule set for Griffon Scanner"
+
+[[rules]]
+name = "ransomware"
+filename = "rules/ransomware.yar"
+
+[[rules]]
+name = "apt"
+filename = "rules/apt.yar"
+
+[[rules]]
+name = "known-backdoor"
+filename = "rules/known-backdoor.yar"
+
+[[rules]]
+name = "known-cryptominer"
+filename = "rules/known-cryptominer.yar"
+
+[[rules]]
+name = "known-spyware"
+filename = "rules/known-spyware.yar"
+
+[[rules]]
+name = "trojans"
+filename = "rules/trojans.yar"
+
+[[rules]]
+name = "webshells"
+filename = "rules/webshells.yar"
+
+[[rules]]
+name = "other"
+filename = "rules/other.yar"
