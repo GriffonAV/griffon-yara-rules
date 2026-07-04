@@ -16,7 +16,7 @@ filename = "rules/yara/backdoors.yar"
 
 [[rules]]
 name = "known-cryptominer"
-filename = "rules/yara/cryptominer.yar"
+filename = "rules/yara/cryptominers.yar"
 
 [[rules]]
 name = "known-spyware"
