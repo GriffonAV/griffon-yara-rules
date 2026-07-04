@@ -12,7 +12,7 @@ filename = "rules/yara/apt.yar"
 
 [[rules]]
 name = "known-backdoor"
-filename = "rules/yara/backdoor.yar"
+filename = "rules/yara/backdoors.yar"
 
 [[rules]]
 name = "known-cryptominer"
